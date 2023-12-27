@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(15, 117, 83);
+    min-height: 200px;
+    max-width: 300px;
+    padding: 20px;
+}
+.container div:nth-child(1){
+    font-size: 70px;
+}
+.container p{
+    color: white;
+}
+.container button{
+    border-style: none;
+    padding: 15px 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
