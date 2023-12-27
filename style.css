@@ -18,11 +18,11 @@ body{
     justify-content: center;
     border-radius: 10px;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     background-color: rgb(15, 117, 83);
     min-height: 200px;
     max-width: 300px;
-    padding: 20px;
+    padding: 35px;
 }
 .container div:nth-child(1){
     font-size: 70px;
@@ -31,6 +31,7 @@ body{
     color: white;
 }
 .container button{
+    margin-top: 8px;
     border-style: none;
     padding: 15px 18px;
     font-weight: 600;
