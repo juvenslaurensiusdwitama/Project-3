@@ -21,7 +21,7 @@ body{
     gap: 20px;
     background-color: rgb(15, 117, 83);
     min-height: 200px;
-    max-width: 300px;
+    max-width: 350px;
     padding: 35px;
 }
 .container div:nth-child(1){
@@ -29,6 +29,7 @@ body{
 }
 .container p{
     color: white;
+    font-size: 20px;
 }
 .container button{
     margin-top: 8px;
